@@ -1,0 +1,2 @@
+# Fable Action Demo
+This is a demo of creating a GitHub Action demo in F# using Fable (F# to JavaScript compiler). It mimics the "Hello World" action from the GitHub docs. The `main` branch contains the F# source code that is used to generate the action. A workflow builds the project to JS and publishes that in the `JS` branch on every change to the `main` branch, which then triggers another workflow to run the workflow.
