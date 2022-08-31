@@ -4,8 +4,6 @@ open Fable.Core
 open Fable.Core.JsInterop
 
 let [<Global>] console: JS.Console = jsNative
-let [<Global>] date: JS.Date = jsNative
-let [<Global>] json: JS.JSON = jsNative
 
 [<Import("*", from="@actions/core")>]
 let core : ActionsCore.Core.IExports = jsNative
